@@ -14,10 +14,10 @@ model organisasi {
   id               Int        @id @default(autoincrement())
   nama_organisasi  String
   ketua_organisasi String
-  no_kontak        Int
+  no_kontak        String
   tahun_dibentuk   Int
   pembina          String
-  kegiatan         kegiatan[]
+  kegiatans         kegiatan[]
 }
 
 model kegiatan {
