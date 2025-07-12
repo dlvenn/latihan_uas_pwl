@@ -174,7 +174,7 @@ export default function KegiatanPage() {
                                 type="url"
                                 value={tautan_pendaftaran}
                                 onChange={(e) => setTautanPendaftaran(e.target.value)}
-                                placeholder="Masukkan Tautan Pendaftaran"
+                                placeholder="https://contoh.com/form"
                             />
                         </div>
         
