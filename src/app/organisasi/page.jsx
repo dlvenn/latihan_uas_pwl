@@ -110,7 +110,7 @@ export default function OrganisasiPage() {
                     <div className={styles.formGroup}>
                         <span>Nomor Kontak</span>
                         <input
-                            type="number"
+                            type="text"
                             value={no_kontak}
                             onChange={(e) => setNoKontak(e.target.value)}
                             placeholder="Masukkan Nomor Kontak"
